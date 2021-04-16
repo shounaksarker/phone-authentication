@@ -1,6 +1,6 @@
 ### POWERODD
 
- live-link : phone-auth-snk.web.app
+ ### live-link : phone-auth-snk.web.app [https://phone-auth-snk.web.app]
 
  for testing phone authentication :
 
@@ -12,4 +12,4 @@
   https://dev.to/crishanks/deploy-host-your-react-app-with-cpanel-in-under-5-minutes-4mf6
 
 
-# prime-color : #E44159
+<!-- ### prime-color : #E44159 -->
