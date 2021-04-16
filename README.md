@@ -1,6 +1,6 @@
 ### POWERODD
 
- ### live-link : phone-auth-snk.web.app [https://phone-auth-snk.web.app]
+ ### live-link : https://phone-auth-snk.web.app
 
  for testing phone authentication :
 
