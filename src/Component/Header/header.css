@@ -1,0 +1,25 @@
+/* == bootstrap modification == */
+.header .logo{
+    max-width:150px;
+}
+.header .nav-link{
+    font-size: 20px;
+    color: black;
+}
+.header .nav-link:hover{
+    color: #E44159 !important;
+}
+
+/* === own css === */
+.actv{
+    font-weight: bold !important;
+    color: #E44159 !important;
+}
+
+.plus-btn{
+    padding: 1px 6px;
+    background: red;
+    border-radius: 50%;
+    color: white;
+    margin-right: 3px;
+}

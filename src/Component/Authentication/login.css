@@ -1,0 +1,43 @@
+.auth .firebaseui-title{
+    color: red !important;
+}
+.auth .firebaseui-card-header{
+    display: none !important;
+}
+.auth .mdl-shadow--2dp{
+    box-shadow: none !important;
+}
+
+.auth .verify-text{
+    color: black;
+}
+
+.auth .mdl-button--raised.mdl-button--colored {
+    background: #433D3F;
+    color: rgb(255,255,255);
+    width: 100%;
+}
+.auth .mdl-button--raised.mdl-button--colored:hover{
+    background: #E44159
+}
+
+.auth .firebaseui-tos{
+    font-size: 0px;
+}
+.auth .firebaseui-tos::after{
+    content: "send the code as an SMS";
+    font-size: 16px;
+    color: black;
+    margin-left: 80px;
+    font-size: 16px;
+}
+
+/* .firebaseui-id-submit {
+    font-size: 0px;
+    padding: 8px 0px 42px 0px;
+    text-transform: none;
+}
+/*.firebaseui-id-submit::after{
+    content: "Generate OTP";
+    font-size: 16px !important;
+} */

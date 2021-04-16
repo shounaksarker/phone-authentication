@@ -1,0 +1,54 @@
+/* === css for  (Colps)  Component ===*/
+.colps .btn:focus{
+    box-shadow: none;
+    border-bottom: 2px solid #E44159;
+    border-radius: 0px;
+}
+.colps .btn:hover{
+    color: #E44159 !important;
+}
+
+/* ===== css for  (tab1 / tab2 / tab3)  component ===== */
+.tag img{
+    width: 20px
+}
+.location{
+    text-decoration: underline;
+}
+.location span{
+    font-size: 20px;
+    color: #E44159;
+}
+
+
+/* ===== css for  (Top workers)  component ===== */
+.t-worker p{
+    font-size: 20px;
+    text-align: justify;
+    line-height: 50px;  /* remove this if this and media quary are not necessary*/
+}
+
+
+/* ===== css for  (workers) component ===== */
+.emptyColor{
+    color: #BFBFBF
+}
+.star{
+    color: #FFC107;
+}
+
+
+
+/* media query  */
+
+@media screen and (max-width: 330px) { 
+    .colps .btn{
+        padding: .375rem 2rem !important;
+    }
+}
+/* remove this if it's not necessary*/
+@media screen and (max-width:1312px) { 
+    .t-worker p{
+        line-height: normal;
+    }
+}

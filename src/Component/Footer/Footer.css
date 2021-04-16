@@ -1,0 +1,86 @@
+.footr{
+    background: #292B32;
+    color: #BFBFBF;
+    margin-top: 45px;
+}
+.footr ul{
+    text-align: justify;
+    list-style: none;
+}
+.footr li{
+    color: #BFBFBF;
+    font-size: 19px;
+}
+.social-bg{
+    background: #A7B7BB;
+    display: block;
+    min-width: 176px;
+}
+.play span{
+    font-size: 25px;
+}
+.apple span{
+    font-size: 30px
+}
+.social{
+    max-width: 525px;
+    background: black;
+    padding: 10px 0px 10px 10px;
+}
+.social-media span{
+    padding: 3px 8px;
+    background: #A7B7BC;
+    color: black;
+}
+.social-media span:hover{
+    color: white;
+}
+.copyright{
+    background: #434346;
+    color: #BFBFBF;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+/* === for mobile ===*/
+.fo-mobile{
+    display: none;
+}
+
+.accordion{
+    border: none;
+}
+.accordion .accordion-item .title{
+    background: #292B32;
+    color: white;
+    font-weight: 600;
+}
+.accordion .accordion-item.active .title{
+    background-color: #464646 !important;
+    background: #464646 !important;
+}
+.panel li{
+    list-style: none;
+    margin-left: 20px;
+}
+.panel li a{
+    color: #b6b6b6;
+}
+.panel li a:hover{
+    color: #d8d8d8;
+}
+
+
+/* social - responsiveness*/
+@media screen and (max-width: 454px) {
+    .social{
+        max-width: 205px;
+    }
+}
+
+@media screen and (min-width: 455px) and (max-width: 585px){
+    .social{
+        max-width: 390px;
+        justify-content:center
+    }
+}
